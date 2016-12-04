@@ -23,6 +23,13 @@ namespace BAL
             cmd.CommandText = "insert into registrationform VALUES('"+ info.firstname+ "', '" + info.lastname+ "','" + info.email + "','" + info.username + "','" + info.password + "','" + info.gender + "')";
             return db.ExeNonQuery(cmd);
         }
+        public int insertMovie(Informations info)
+        {
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = cmd.CommandText = "insert into movies VALUES('" + info.username + "', '" + info.title + "','" + info.raiting + "','" + info.genre + "','" + info.status+ "')";
+            return db.ExeNonQuery(cmd);
+        }
         public DataTable login(Informations info)
         {
             MySqlCommand cmd = new MySqlCommand();
@@ -31,16 +38,19 @@ namespace BAL
             return db.ExeReader(cmd);
             
         }
-       public string GlobalUser;
-        public string returnUser
+        public DataTable getMovies(Informations info)
         {
-            get { return GlobalUser; }
-            set { GlobalUser = value; }
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "SELECT * from movies where user='" + info.username +"'";
+            return db.ExeReader(cmd);
 
         }
-        
 
-}
+
+
+
+    }
         
     }
 

@@ -13,7 +13,7 @@ using BEL;
 
 namespace Lokaverkefni
 {
-    public partial class Main : Form
+    public partial class MainPage : Form
     {
 
         RegisterForm formInstance = new RegisterForm();
@@ -21,26 +21,23 @@ namespace Lokaverkefni
         public Informations info = new Informations();
         public Operations opr = new Operations();
         DataTable dt = new DataTable();
-        public Main()
+        public MainPage()
         {
             InitializeComponent();
         }
-
-       
-        
-
-       
        
 
 
 
-        
 
-        private void Main_Load(object sender, EventArgs e)
-        {
-            
 
-        }
+
+
+
+
+
+
+       
 
 
         private void btMainRegister_Click(object sender, EventArgs e)
@@ -55,23 +52,30 @@ namespace Lokaverkefni
             
             }
 
-        private void btMainLogin_Click(object sender, EventArgs e)
+        public void btMainLogin_Click(object sender, EventArgs e)
         {
             string username = txtMainUsername.Text;
             string password = txtMainPassword.Text;
             info.username = username;
             info.password = password;
-
-            opr.returnUser = username;
-
+            
+        
+            
             
 
             dt = opr.login(info);
 
             if(dt.Rows.Count > 0)
             {
+                
                 ApplicationLayer app = new ApplicationLayer();
                 app.Show();
+                app.txtUser.Text = username;
+                
+               
+
+
+
             }
             else
             {
