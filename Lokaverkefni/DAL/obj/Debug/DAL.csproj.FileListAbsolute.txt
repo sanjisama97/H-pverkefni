@@ -1,0 +1,12 @@
+C:\Users\Nikulas\Documents\Visual Studio 2015\Projects\Lokaverkefni\DAL\bin\Debug\DAL.dll
+C:\Users\Nikulas\Documents\Visual Studio 2015\Projects\Lokaverkefni\DAL\bin\Debug\DAL.pdb
+C:\Users\Nikulas\Documents\Visual Studio 2015\Projects\Lokaverkefni\DAL\bin\Debug\MySql.Data.dll
+C:\Users\Nikulas\Documents\Visual Studio 2015\Projects\Lokaverkefni\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Nikulas\Documents\Visual Studio 2015\Projects\Lokaverkefni\DAL\obj\Debug\DAL.dll
+C:\Users\Nikulas\Documents\Visual Studio 2015\Projects\Lokaverkefni\DAL\obj\Debug\DAL.pdb
+C:\Users\1911952219\Documents\Visual Studio 2013\Projects\Lokaverkefni\DAL\bin\Debug\DAL.dll
+C:\Users\1911952219\Documents\Visual Studio 2013\Projects\Lokaverkefni\DAL\bin\Debug\DAL.pdb
+C:\Users\1911952219\Documents\Visual Studio 2013\Projects\Lokaverkefni\DAL\bin\Debug\MySql.Data.dll
+C:\Users\1911952219\Documents\Visual Studio 2013\Projects\Lokaverkefni\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\1911952219\Documents\Visual Studio 2013\Projects\Lokaverkefni\DAL\obj\Debug\DAL.dll
+C:\Users\1911952219\Documents\Visual Studio 2013\Projects\Lokaverkefni\DAL\obj\Debug\DAL.pdb

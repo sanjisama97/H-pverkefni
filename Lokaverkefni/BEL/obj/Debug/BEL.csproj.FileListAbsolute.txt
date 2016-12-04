@@ -1,0 +1,10 @@
+C:\Users\Nikulas\Documents\Visual Studio 2015\Projects\Lokaverkefni\BEL\bin\Debug\BEL.dll
+C:\Users\Nikulas\Documents\Visual Studio 2015\Projects\Lokaverkefni\BEL\bin\Debug\BEL.pdb
+C:\Users\Nikulas\Documents\Visual Studio 2015\Projects\Lokaverkefni\BEL\obj\Debug\BEL.csprojResolveAssemblyReference.cache
+C:\Users\Nikulas\Documents\Visual Studio 2015\Projects\Lokaverkefni\BEL\obj\Debug\BEL.dll
+C:\Users\Nikulas\Documents\Visual Studio 2015\Projects\Lokaverkefni\BEL\obj\Debug\BEL.pdb
+C:\Users\1911952219\Documents\Visual Studio 2013\Projects\Lokaverkefni\BEL\bin\Debug\BEL.dll
+C:\Users\1911952219\Documents\Visual Studio 2013\Projects\Lokaverkefni\BEL\bin\Debug\BEL.pdb
+C:\Users\1911952219\Documents\Visual Studio 2013\Projects\Lokaverkefni\BEL\obj\Debug\BEL.csprojResolveAssemblyReference.cache
+C:\Users\1911952219\Documents\Visual Studio 2013\Projects\Lokaverkefni\BEL\obj\Debug\BEL.dll
+C:\Users\1911952219\Documents\Visual Studio 2013\Projects\Lokaverkefni\BEL\obj\Debug\BEL.pdb
